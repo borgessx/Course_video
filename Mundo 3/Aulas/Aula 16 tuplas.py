@@ -63,3 +63,6 @@ pessoa = ("Gustavo",39,"M",99.80)
 #delete na pisção 1
 #del(pessoa[1])
 print(pessoa)
+
+#encontra a posição de algo
+print(f"Gustavo está na {pessoa.index('Gustavo')} posição")
